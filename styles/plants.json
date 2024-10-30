@@ -1,0 +1,163 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Plants styles",
+  "description": "Brandy Plants site",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#377E62",
+          "slug": "brandy-accent",
+          "name": "Brandy accent"
+        },
+        {
+          "color": "#122940",
+          "slug": "brandy-primary-text",
+          "name": "Brandy primary text"
+        },
+        {
+          "color": "#5A6D80",
+          "slug": "brandy-secondary-text",
+          "name": "Brandy secondary text"
+        },
+        {
+          "color": "#edf3f9",
+          "slug": "brandy-border",
+          "name": "Brandy border"
+        },
+        {
+          "color": "#FAFCFE",
+          "slug": "brandy-theme-background",
+          "name": "Brandy theme background"
+        },
+        {
+          "color": "#122941",
+          "slug": "brandy-primary-black",
+          "name": "Brandy primary black"
+        },
+        {
+          "color": "#f5f5f5",
+          "slug": "brandy-theme-secondary-background",
+          "name": "Brandy theme secondary background"
+        },
+        {
+          "color": "#F8F9FA",
+          "slug": "brandy-theme-third-background",
+          "name": "Brandy theme third background"
+        },
+        {
+          "color": "#EDF3F9",
+          "slug": "brandy-theme-fourth-background",
+          "name": "Brandy theme fourth background"
+        },
+        {
+          "color": "#EBF5FF",
+          "slug": "brandy-theme-fifth-background",
+          "name": "Brandy theme fifth background"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Jost",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./[brandy_sites_path]assets/fonts/jost/jost-regular.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Jost",
+              "fontStyle": "italic",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./[brandy_sites_path]assets/fonts/jost/jost-italic.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"Jost\", sans-serif",
+          "name": "Jost",
+          "slug": "jost"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Prata",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./[brandy_sites_path]assets/fonts/prata/prata-regular.ttf"
+              ]
+            }
+          ],
+          "fontFamily": "\"Prata\", sans-serif",
+          "name": "Prata",
+          "slug": "prata"
+        },
+        {
+          "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+          "slug": "system-fonts",
+          "name": "System fonts"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "960px",
+      "wideSize": "1820px"
+    },
+    "shadow": {
+      "presets": [
+        {
+          "name": "Small",
+          "slug": "sm",
+          "shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)"
+        },
+        {
+          "name": "Medium",
+          "slug": "md",
+          "shadow": "0 4px  10px 0 rgba( 0, 0, 0, 0.3 )"
+        },
+        {
+          "name": "Large",
+          "slug": "lg",
+          "shadow": "0 8px  15px 0 rgba( 0, 0, 0, 0.3 )"
+        },
+        {
+          "name": "Shadow 1",
+          "slug": "shadow_1",
+          "shadow": "0px 5px 25px 0px #377E620D"
+        },
+        {
+          "name": "Shadow 2",
+          "slug": "shadow_2",
+          "shadow": "0px 5px 35px 0px #0000000D"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var:preset|font-family|jost"
+    },
+    "color": {
+      "gradient": "linear-gradient(180deg, #FAFCFE 0%, #FFFFFF 100%)"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|prata"
+        }
+      },
+      "button": {
+        "border": {
+          "radius": "0px"
+        }
+      }
+    },
+    "blocks": {}
+  }
+}

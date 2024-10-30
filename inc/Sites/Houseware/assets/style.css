@@ -1,0 +1,84 @@
+body {
+  --product-thumb-aspect-ratio: 3/4;
+  --brandy-post-img-aspect-ratio: 3.5/4;
+  --wc-sale-badge-distance: 10px;
+}
+
+/** Product template */
+
+.brandy-site-product-template
+  .brandy-houseware-product-template__thumbnail-group {
+  position: relative;
+}
+
+.brandy-site-product-template
+  .brandy-houseware-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"],
+.brandy-site-product-template
+  .brandy-houseware-product-template__thumbnail-group
+  [data-type="woocommerce/product-button"] {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: calc(100% - 20px);
+  z-index: 2;
+}
+
+.brandy-site-product-template
+  .brandy-houseware-product-template__thumbnail-group
+  [data-block-name="brandy/add-to-wishlist"],
+.brandy-site-product-template
+  .brandy-houseware-product-template__thumbnail-group
+  [data-type="brandy/add-to-wishlist"] {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+}
+
+.brandy-site-product-template
+  .brandy-houseware-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"],
+.brandy-site-product-template
+  .brandy-houseware-product-template__thumbnail-group
+  [data-block-name="brandy/add-to-wishlist"]:not(.added) {
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease-in-out 0.4s;
+}
+
+.brandy-site-product-template
+  > .product:hover
+  .brandy-houseware-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"],
+.brandy-site-product-template
+  > .product:hover
+  .brandy-houseware-product-template__thumbnail-group
+  [data-block-name="brandy/add-to-wishlist"] {
+  opacity: 1;
+  visibility: visible;
+}
+
+.brandy-site-product-template > .product:hover .wp-block-post-title a {
+  background-size: var(--brandy-text-underline-image-size-hover, 100% 1px);
+  text-decoration: var(--brandy-text-underline-decoration-hover, none);
+}
+
+/** swiper */
+body {
+  --brandy-product-collection-swiper-navigation-offset-top: 45%;
+
+  --brandy-swiper-navigation-button-width: 50px;
+  --brandy-swiper-navigation-button-height: 50px;
+  --brandy-swiper-navigation-button-shadow: 0px 10px 20px 0px #723b260d;
+  --brandy-swiper-navigation-button-icon-color: #dfcfc8;
+  --brandy-swiper-navigation-button-icon-height: 14px;
+
+  --brandy-swiper-navigation-button-icon-color-hover: #723b26;
+  --brandy-swiper-navigation-button-shadow-hover: 0px 10px 20px 0px #0000000d;
+  --brandy-swiper-navigation-button-background-color-hover: #723b260d;
+}
+
+.brandy-swiper-navigation-button.swiper-button-disabled {
+  display: none;
+}

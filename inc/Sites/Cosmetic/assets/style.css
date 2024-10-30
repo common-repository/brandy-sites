@@ -1,0 +1,210 @@
+.brandy-site-product-template .brandy-cosmetic-product-thumbnail-group {
+  position: relative;
+}
+
+.brandy-site-product-template
+  .brandy-cosmetic-product-thumbnail-group
+  [data-block-name="woocommerce/product-image"] {
+  overflow: hidden;
+}
+
+.brandy-site-product-template
+  .brandy-cosmetic-product-thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  a {
+  position: relative;
+  display: block;
+}
+.brandy-site-product-template
+  .brandy-cosmetic-product-thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #1516170f;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease-in-out 0.6s;
+}
+
+.brandy-site-product-template
+  .brandy-cosmetic-product-thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img {
+  transition: all ease-in-out 0.6s;
+}
+
+.brandy-site-product-template
+  .brandy-cosmetic-product-thumbnail-group
+  [data-block-name="woocommerce/product-button"],
+.brandy-site-product-template
+  .brandy-cosmetic-product-thumbnail-group
+  [data-type="woocommerce/product-button"] {
+  position: absolute;
+  width: calc(100% - 30px);
+  left: 15px;
+  bottom: 15px;
+  z-index: 3;
+}
+
+.brandy-site-product-template
+  .brandy-cosmetic-product-thumbnail-group
+  [data-block-name="woocommerce/product-button"],
+.brandy-site-product-template
+  .brandy-cosmetic-product-thumbnail-group
+  .brandy-cosmetic-product-extra-actions:not(.block-editor-block-list__block) {
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease-in-out 0.6s;
+}
+
+.brandy-site-product-template
+  .brandy-cosmetic-product-thumbnail-group
+  .brandy-cosmetic-product-extra-actions {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 3;
+}
+
+.brandy-site-product-template
+  > .product:hover
+  .brandy-cosmetic-product-thumbnail-group
+  [data-block-name="woocommerce/product-button"],
+.brandy-site-product-template
+  > .product:hover
+  .brandy-cosmetic-product-thumbnail-group
+  .brandy-cosmetic-product-extra-actions:not(.block-editor-block-list__block),
+.brandy-site-product-template
+  > .product:hover
+  .brandy-cosmetic-product-thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  a::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.brandy-site-product-template
+  > .product:hover
+  .brandy-cosmetic-product-thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img {
+  scale: 1.1;
+}
+
+.wc-block-components-product-price del {
+  margin-right: 3px;
+}
+
+body {
+  --brandy-product-rating-star-color-active: #ffccb4;
+}
+
+/** Product categories */
+
+.brandy-cosmetic-product-categories-custom-layout
+  .brandy-cosmetic-product-categories-custom-layout-item {
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  transition: all ease-in-out 0.3s;
+}
+.brandy-cosmetic-product-categories-custom-layout
+  .brandy-cosmetic-product-categories-custom-layout-item
+  .wp-block-button__link {
+  backdrop-filter: blur(7px);
+}
+
+.brandy-cosmetic-product-categories-custom-layout
+  .brandy-cosmetic-product-categories-custom-layout-item:hover {
+  background-size: 110% 110% !important;
+}
+
+/** Flash sale slider */
+/** Editor */
+
+.block-editor-block-list__block
+  .brandy-cosmetic-flash-sale-slider
+  .brandy-site-product-template {
+  grid-template-columns: 1fr !important;
+}
+
+.block-editor-block-list__block
+  .brandy-cosmetic-flash-sale-slider
+  .brandy-site-product-template
+  > *:nth-child(n + 2) {
+  display: none;
+}
+
+.brandy-cosmetic-flash-sale-slider:not(.block-editor-block-list__block)
+  .wp-block-woocommerce-product-collection {
+  width: max-content;
+}
+
+.brandy-cosmetic-flash-sale-slider {
+  position: relative;
+}
+
+.brandy-cosmetic-flash-sale-slider .brandy-site-product-template {
+  grid-gap: 0 !important;
+}
+
+.brandy-cosmetic-flash-sale-slider .brandy-swiper-navigation-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(calc(-50% - 50px));
+  z-index: 2;
+}
+
+.brandy-cosmetic-flash-sale-slider .brandy-swiper-navigation-button--back {
+  left: 12%;
+}
+.brandy-cosmetic-flash-sale-slider .brandy-swiper-navigation-button--next {
+  right: 12%;
+}
+
+.brandy-cosmetic-flash-sale-slider .brandy-swiper-navigation {
+  margin: 0;
+}
+
+.brandy-cosmetic-flash-sale-slider
+  .brandy-swiper-navigation-button.swiper-button-disabled {
+  display: none;
+}
+
+/** Image gallery */
+.brandy-cosmetic-image-gallery .wp-block-image a {
+  position: relative;
+  display: block;
+}
+.brandy-cosmetic-image-gallery .wp-block-image a::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #15161766;
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.brandy-cosmetic-image-gallery .wp-block-image a:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+/** **/
+body {
+  --brandy-swiper-navigation-button-width: 50px;
+  --brandy-swiper-navigation-button-height: 50px;
+  --brandy-swiper-navigation-button-shadow: 1px 4px 8px 0px #d9e3f030;
+  --brandy-swiper-navigation-button-icon-color: #151617;
+
+  --brandy-icon-global-stroke-width: 1.5px;
+}

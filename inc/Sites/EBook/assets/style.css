@@ -1,0 +1,259 @@
+body {
+  --brandy-text-underline-image-size: 0px;
+  --brandy-text-underline-image-size-hover: 0px;
+  --brandy-text-underline-transition-duration: 0.3s;
+  --brandy-text-underline-decoration: underline 1px solid transparent;
+  --brandy-text-underline-decoration-hover: underline 1px solid currentColor;
+  --brandy-text-underline-offset: 2px;
+
+  --wc-sale-badge-distance: 10px;
+}
+
+.brandy-ebook-search-tags a > img:nth-child(n + 2) {
+  visibility: hidden;
+  opacity: 0;
+  max-width: 0;
+  transition-property: visibility, opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.6s;
+}
+
+.brandy-ebook-search-tags a:hover > img:nth-child(n + 2) {
+  visibility: visible;
+  opacity: 1;
+  max-width: 100%;
+}
+
+.brandy-ebook-search-tags a > img:first-child:not(:last-child) {
+  visibility: visible;
+  opacity: 1;
+  max-width: 100%;
+  transition-property: visibility, opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.6s;
+}
+.brandy-ebook-search-tags a:hover > img:first-child:not(:last-child) {
+  visibility: hidden;
+  opacity: 0;
+  max-width: 0;
+}
+
+/** Product template */
+
+.brandy-site-product-template .brandy-ebook-product-template__thumbnail-group {
+  position: relative;
+}
+
+.brandy-site-product-template
+  .brandy-ebook-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"],
+.brandy-site-product-template
+  .brandy-ebook-product-template__thumbnail-group
+  [data-type="woocommerce/product-button"] {
+  position: absolute;
+  z-index: 2;
+  width: calc(100% - 30px);
+  left: 15px;
+  bottom: 15px;
+}
+
+.brandy-site-product-template
+  .brandy-ebook-product-template-card
+  .brandy-ebook-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"],
+.brandy-site-product-template
+  .brandy-ebook-product-template-card
+  .brandy-ebook-product-template__thumbnail-group
+  [data-type="woocommerce/product-button"] {
+  width: calc(100% - 20px);
+  left: 10px;
+  bottom: 10px;
+}
+
+.brandy-site-product-template
+  .brandy-ebook-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"] {
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease-in-out 0.6s;
+}
+
+[data-block-name="woocommerce/product-button"] button {
+  gap: 10px;
+}
+
+.brandy-site-product-template
+  .brandy-ebook-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  a {
+  position: relative;
+  display: block;
+  border-radius: inherit;
+  overflow: hidden;
+}
+
+.brandy-site-product-template
+  .brandy-ebook-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: #00000033;
+  opacity: 0;
+  visibility: hidden;
+  transition: all ease-in-out 0.6s;
+}
+
+.brandy-site-product-template
+  > .product
+  .brandy-ebook-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img:where(
+    :not(
+        .brandy-ebook-product-template-card
+          .brandy-ebook-product-template__thumbnail-group
+          [data-block-name="woocommerce/product-image"]
+          img
+      )
+  ) {
+  transition: all ease-in-out 0.6s;
+}
+
+.brandy-site-product-template
+  > .product:hover
+  .brandy-ebook-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"] {
+  visibility: visible;
+  opacity: 1;
+}
+
+.brandy-site-product-template
+  > .product:hover
+  .brandy-ebook-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  a::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.brandy-site-product-template
+  > .product:hover
+  .brandy-ebook-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img:where(
+    :not(
+        .brandy-ebook-product-template-card
+          .brandy-ebook-product-template__thumbnail-group
+          [data-block-name="woocommerce/product-image"]
+          img
+      )
+  ) {
+  scale: 1.05;
+}
+
+.brandy-site-product-template > .product:hover .wp-block-post-title a {
+  text-decoration: var(--brandy-text-underline-decoration-hover, none);
+}
+
+/** Premium tag */
+.brandy-ebook-premium-tag {
+  position: absolute;
+  top: var(--wc-sale-badge-distance, 0.875rem);
+  left: var(--wc-sale-badge-distance, 0.875rem);
+  right: auto;
+  z-index: 1;
+  width: 26px;
+  height: 26px;
+  padding: 8px 7px;
+  background: #0c0c0c80;
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+
+.brandy-ebook-premium-tag img {
+  width: 100%;
+  height: 100%;
+}
+
+/** Swiper */
+.brandy-swiper-navigation {
+  margin: 0;
+}
+body {
+  --brandy-swiper-navigation-button-background-color: #f8fafc;
+  --brandy-swiper-navigation-button-background-color-hover: #e8edf2;
+
+  --brandy-swiper-navigation-button-icon-fill-color: #969fa9;
+  --brandy-swiper-navigation-button-icon-fill-color-disabled: #d4d5d7;
+  --brandy-swiper-navigation-button-icon-fill-color-hover: #1d1e20;
+
+  --brandy-swiper-navigation-button-icon-color: transparent;
+  --brandy-swiper-navigation-button-icon-color-disabled: transparent;
+  --brandy-swiper-navigation-button-icon-color-hover: transparent;
+
+  --brandy-swiper-navigation-button-shadow-hover: 0px 7px 35px 0px #0000000d;
+
+  --brandy-product-collection-swiper-navigation-offset-top: 50%;
+
+  --product-thumb-aspect-ratio-tablet: 3/4;
+}
+
+/** Custom products collection slider */
+.block-editor-block-list__block
+  .brandy-product-collection-slider.brandy-product-collection-custom-slider
+  ul
+  > * {
+  max-width: 100%;
+  flex: none;
+}
+
+.brandy-product-collection-slider.brandy-product-collection-custom-slider
+  > [data-wc-interactive] {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .brandy-product-collection-slider.brandy-product-collection-custom-slider
+    ul
+    li
+    > .wp-block-columns
+    > .wp-block-column:nth-child(2)
+    > .wp-block-columns {
+    border-radius: 26px !important;
+  }
+}
+
+.brandy-ebook-recommend-links .wp-block-button > a:hover {
+  box-shadow: 0px 10px 35px 0px #0000001a !important;
+}
+
+.brandy-swiper-navigation-button.brandy-swiper-navigation-button--back {
+  left: 10px;
+}
+
+.brandy-swiper-navigation-button.brandy-swiper-navigation-button--next {
+  right: 10px;
+}
+
+.brandy-swiper-navigation {
+  margin: 0 !important;
+}
+
+.brandy-swiper-navigation-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(calc(-50% - 22px));
+  z-index: 2;
+}
+
+.brandy-swiper-navigation-button.swiper-button-disabled {
+  display: none;
+}

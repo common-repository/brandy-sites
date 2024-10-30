@@ -1,0 +1,6 @@
+.wp-block-tag-cloud .tag-cloud-link {
+  box-shadow: 0 0 #fff, 0 0 #fff, 0 5px 12px #ffffff0d !important;
+}
+.wp-block-tag-cloud .tag-cloud-link:hover {
+  box-shadow: 0 0 #fff, 0 0 #fff, 0 7px 25px #ffffff1f !important;
+}

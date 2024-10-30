@@ -1,0 +1,240 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Houseware styles",
+  "description": "Brandy Houseware site",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#723B26",
+          "slug": "brandy-accent",
+          "name": "Brandy accent"
+        },
+        {
+          "color": "#222222",
+          "slug": "brandy-primary-text",
+          "name": "Brandy primary text"
+        },
+        {
+          "color": "#7F8287",
+          "slug": "brandy-secondary-text",
+          "name": "Brandy secondary text"
+        },
+        {
+          "color": "#edf3f9",
+          "slug": "brandy-border",
+          "name": "Brandy border"
+        },
+        {
+          "color": "#ffffff",
+          "slug": "brandy-theme-background",
+          "name": "Brandy theme background"
+        },
+        {
+          "color": "#122941",
+          "slug": "brandy-primary-black",
+          "name": "Brandy primary black"
+        },
+        {
+          "color": "#fafafa",
+          "slug": "brandy-theme-secondary-background",
+          "name": "Brandy theme secondary background"
+        },
+        {
+          "color": "#F8F9FA",
+          "slug": "brandy-theme-third-background",
+          "name": "Brandy theme third background"
+        },
+        {
+          "color": "#EDF3F9",
+          "slug": "brandy-theme-fourth-background",
+          "name": "Brandy theme fourth background"
+        },
+        {
+          "color": "#EBF5FF",
+          "slug": "brandy-theme-fifth-background",
+          "name": "Brandy theme fifth background"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Outfit",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": ["file:./assets/fonts/outfit/outfit-regular.ttf"]
+            }
+          ],
+          "fontFamily": "\"Outfit\", sans-serif",
+          "name": "Outfit",
+          "slug": "outfit"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Lexend",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./[brandy_sites_path]assets/fonts/lexend/lexend-regular.ttf"
+              ]
+            }
+          ],
+          "fontFamily": "\"Lexend\", sans-serif",
+          "name": "Lexend",
+          "slug": "lexend"
+        },
+        {
+          "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+          "slug": "system-fonts",
+          "name": "System fonts"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "960px",
+      "wideSize": "1320px"
+    },
+    "shadow": {
+      "presets": [
+        {
+          "name": "Small",
+          "slug": "sm",
+          "shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)"
+        },
+        {
+          "name": "Medium",
+          "slug": "md",
+          "shadow": "0 4px  10px 0 rgba( 0, 0, 0, 0.3 )"
+        },
+        {
+          "name": "Large",
+          "slug": "lg",
+          "shadow": "0 8px  15px 0 rgba( 0, 0, 0, 0.3 )"
+        },
+        {
+          "name": "Brandy ebook shadow 1",
+          "slug": "brandy-ebook-shadow",
+          "shadow": "7px 7px 7px 0px #1516171A"
+        },
+        {
+          "name": "Brandy ebook shadow 2",
+          "slug": "brandy-ebook-shadow-2",
+          "shadow": "0px 7px 35px 0px #0000000D"
+        },
+        {
+          "name": "Brandy ebook shadow 3",
+          "slug": "brandy-ebook-shadow-3",
+          "shadow": "0px 5px 25px 0px #377E620D"
+        },
+        {
+          "name": "Brandy ebook shadow 4",
+          "slug": "brandy-ebook-shadow-4",
+          "shadow": "0px 6px 12px 0px #94A3B826"
+        }
+      ]
+    },
+    "spacing": {
+      "spacingSizes": [
+        {
+          "name": "1",
+          "size": "min(1rem, 1vw)",
+          "slug": "10"
+        },
+        {
+          "name": "2",
+          "size": "min(1.5rem, 2vw)",
+          "slug": "20"
+        },
+        {
+          "name": "3",
+          "size": "min(2rem, 5vw)",
+          "slug": "30"
+        },
+        {
+          "name": "4",
+          "size": "min(2.5rem, 6vw)",
+          "slug": "40"
+        },
+
+        {
+          "name": "5",
+          "size": "min(4rem, 8vw)",
+          "slug": "50"
+        },
+        {
+          "name": "6",
+          "size": "min(6rem, 10vw)",
+          "slug": "60"
+        },
+        {
+          "name": "7",
+          "size": "min(9.3rem, 18vw)",
+          "slug": "70"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var:preset|font-family|outfit"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|outfit",
+          "fontWeight": "500"
+        }
+      },
+      "button": {
+        "shadow": "",
+        "border": {
+          "radius": "10px"
+        },
+        ":hover": {
+          "shadow": ""
+        },
+        "spacing": {
+          "padding": {
+            "left": "30px",
+            "right": "30px",
+            "top": "11px",
+            "bottom": "11px"
+          }
+        },
+        "typography": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "lineHeight": "1"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "variations": {
+          "outline": {
+            "color": {
+              "text": "var:preset|color|brandy-accent",
+              "background": "#ffffff00"
+            },
+            "border": {
+              "width": "1px"
+            },
+            "spacing": {
+              "padding": {
+                "left": "30px",
+                "right": "30px",
+                "top": "14px",
+                "bottom": "14px"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

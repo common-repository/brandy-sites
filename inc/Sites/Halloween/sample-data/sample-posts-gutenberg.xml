@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <ID>1</ID>
+    <name>brandy_halloween_post_1</name>
+    <title><![CDATA[Spooky and Fun Halloween Party Ideas]]></title>
+    <content><![CDATA[Planning a Halloween party can be a lot of fun with the right ideas. This post offers creative and spooky themes for your next Halloween bash, from haunted house decorations to eerie games and delicious treats. Discover how to set the mood with the perfect playlist and unique costume ideas that will wow your guests.]]></content>
+    <featured_image>https://images.wpbrandy.com/uploads/halloween-v1-post-1-min.png</featured_image>
+    <category domain="category" nicename="spooky-fun-halloween-party-ideas"><![CDATA[Makeup]]></category>
+    <category domain="post_tag" nicename="halloween-party"><![CDATA[Halloween Party]]></category>
+    <category domain="post_tag" nicename="party-planning"><![CDATA[Party Planning]]></category>
+    <comment>These ideas are fantastic! I especially love the haunted house theme. Do you have any suggestions for budget-friendly decorations?</comment>
+    <comment>Great post! The costume ideas are so creative. I’m definitely trying out some of these games for my party this year!</comment>
+  </row>
+  <row>
+    <ID>2</ID>
+    <name>brandy_halloween_post_2</name>
+    <title><![CDATA[DIY Halloween Decorations That Wow]]></title>
+    <content><![CDATA[Transform your home into a Halloween haven with these DIY decoration ideas. From homemade spooky wreaths to eerie ghost lanterns, this guide provides step-by-step instructions for creating decorations that will impress your neighbors and guests. Get inspired by these crafts and make your Halloween celebrations unforgettable.]]></content>
+    <featured_image>https://images.wpbrandy.com/uploads/halloween-v1-post-2-min.png</featured_image>
+    <category domain="category" nicename="diy-halloween-decorations"><![CDATA[DIY Halloween Crafts]]></category>
+    <category domain="post_tag" nicename="diy-decorations"><![CDATA[DIY Decorations]]></category>
+    <comment>I love the idea of making my own decorations! The ghost lanterns look amazing. Can you suggest some materials that are easy to find?</comment>
+    <comment>These crafts are perfect for a Halloween family project. Thanks for the detailed instructions and tips. Can’t wait to get started!</comment>
+  </row>
+  <row>
+    <ID>3</ID>
+    <name>brandy_halloween_post_3</name>
+    <title>Best Halloween Recipes for a Ghoulish Feast</title>
+    <content>Hosting a Halloween party means serving up some spine-chilling snacks! This post features a collection of Halloween-themed recipes that are both delicious and spooky. From mummy hot dogs to pumpkin-shaped cookies, find recipes that will make your Halloween feast a hit with both kids and adults.</content>
+    <featured_image>https://images.wpbrandy.com/uploads/halloween-v1-post-3-min.png</featured_image>
+    <category domain="category" nicename="best-halloween-recipes">Halloween Recipes</category>
+    <category domain="post_tag" nicename="spooky-snacks"><![CDATA[Spooky Snacks]]></category>
+    <comment>These recipes look so fun! I’m especially excited about the mummy hot dogs. Do you have any suggestions for Halloween-themed drinks?</comment>
+    <comment>Great ideas for spooky snacks! The pumpkin cookies are adorable. I’m hosting a party and will definitely be trying these recipes.</comment>
+  </row>
+  <row>
+    <ID>4</ID>
+    <name>brandy_halloween_post_4</name>
+    <title>Scary Movie Marathon: Top 10 Halloween Films</title>
+    <content>A Halloween movie marathon is a perfect way to get into the spooky spirit. This post lists the top 10 must-watch Halloween films, from classic horror to family-friendly fright. Get the popcorn ready and discover the ultimate films to watch for a chilling night in.</content>
+    <featured_image>https://images.wpbrandy.com/uploads/halloween-v1-post-4-min.png</featured_image>
+    <category domain="category" nicename="top-10-halloween-films"><![CDATA[Halloween Entertainment]]></category>
+    <category domain="post_tag" nicename="halloween-movies"><![CDATA[Halloween Movies]]></category>
+    <comment>I love having a movie marathon for Halloween! This list has some great picks. Any chance you could include a few more family-friendly options?</comment>
+    <comment>Fantastic list! I’m definitely adding a few of these to my watchlist. ‘Hocus Pocus’ is a classic that never gets old.</comment>
+  </row>
+  <row>
+    <ID>5</ID>
+    <name>brandy_halloween_post_5</name>
+    <title>Creative Halloween Costume Ideas for 2024</title>
+    <content>Stand out this Halloween with creative costume ideas for 2024. From pop culture-inspired outfits to unique DIY creations, this post showcases the latest trends and classic favorites. Whether you’re looking for a costume for kids, adults, or pets, find inspiration to make this Halloween unforgettable.</content>
+    <featured_image>https://images.wpbrandy.com/uploads/halloween-v1-post-1-min.png</featured_image>
+    <category domain="category" nicename="creative-halloween-costume-ideas-2024"><![CDATA[Halloween Costumes]]></category>
+    <category domain="post_tag" nicename="halloween-costumes"><![CDATA[Halloween Costumes]]></category>
+    <comment>I’m looking for something unique this year, and these ideas are perfect! The DIY costumes are especially cool. Can you recommend any resources for making them?</comment>
+    <comment>Love the costume ideas! I’m thinking of going as a vintage movie character. Any tips on how to pull off a retro look?</comment>
+  </row>
+  <row>
+    <ID>6</ID>
+    <name>brandy_halloween_post_6</name>
+    <title><![CDATA[Halloween Safety Tips for Trick-or-Treating]]></title>
+    <content><![CDATA[Safety is crucial when it comes to trick-or-treating. This post offers essential tips to ensure a safe and enjoyable Halloween for everyone. Learn about costume safety, street safety, and how to make sure your treats are safe. Keep your Halloween fun and secure with these practical safety tips.]]></content>
+    <featured_image>https://images.wpbrandy.com/uploads/halloween-v1-post-2-min.png</featured_image>
+    <category domain="category" nicename="halloween-safety-tips-trick-or-treating"><![CDATA[Halloween Safety]]></category>
+    <category domain="post_tag" nicename="trick-or-treating"><![CDATA[Trick-or-Treating]]></category>
+    <comment>Thanks for the great tips! Safety is always a top priority for us. Any advice on how to make sure costumes are visible at night?</comment>
+    <comment>These safety tips are really helpful. I’m always worried about my kids while they’re out trick-or-treating. Your suggestions make me feel better prepared.</comment>
+  </row>
+</root>

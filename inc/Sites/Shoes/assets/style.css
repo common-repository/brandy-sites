@@ -1,0 +1,142 @@
+/** Product loop */
+
+.brandy-shoes-product-template__thumbnail-group {
+  position: relative;
+}
+
+.brandy-shoes-product-template__thumbnail-group
+  .wp-block-brandy-add-to-wishlist {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.brandy-shoes-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"],
+.brandy-shoes-product-template__thumbnail-group
+  [data-type="woocommerce/product-button"] {
+  position: absolute;
+  width: calc(100% - 32px);
+  bottom: 16px;
+  left: 16px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all ease-in-out 0.3s;
+}
+
+.brandy-shoes-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"] {
+  position: relative;
+  overflow: hidden;
+}
+
+.brandy-shoes-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  a {
+  position: relative;
+  display: flex;
+}
+
+.brandy-shoes-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1229400d;
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.brandy-shoes-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img {
+  transition: all ease-in-out 0.3s;
+}
+
+.brandy-site-product-template > .product {
+  border: 1.5px solid transparent;
+  transition: all ease-in-out 0.3s;
+}
+
+.brandy-site-product-template > .product:hover {
+  border-color: var(--wp--preset--color--brandy-primary-text);
+}
+
+.brandy-site-product-template
+  > .product:hover
+  .brandy-shoes-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"],
+.brandy-shoes-product-template__thumbnail-group
+  [data-type="woocommerce/product-button"] {
+  opacity: 1;
+  visibility: visible;
+}
+
+.brandy-site-product-template
+  > .product:hover
+  .brandy-shoes-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  a::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.brandy-site-product-template
+  > .product:hover
+  .brandy-shoes-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img {
+  scale: 1.1;
+}
+
+/** Product loop END */
+
+/** Products categories list */
+
+.brandy-product-categories-list
+  .wc-block-product-categories-list-item__image
+  img {
+  aspect-ratio: 3/4;
+}
+
+/** Override **/
+
+body {
+  --order-item-thumb-radius: 0px;
+  --order-item-thumb-background: rgb(245 245 245);
+  --order-item-thumb-width: 80px;
+  --order-item-thumb-height: 80px;
+
+  /** ----Swiper--- */
+  /** normal state */
+  --brandy-swiper-navigation-button-background-color: #ffffff;
+  --brandy-swiper-navigation-button-icon-color: var(
+    --wp--preset--color--brandy-primary-text
+  );
+  --brandy-swiper-navigation-button-border: 1.5px solid
+    var(--wp--preset--color--brandy-primary-text);
+  --brandy-swiper-navigation-button-shadow: 1.5px 1.5px 0px 0px
+    var(--wp--preset--color--brandy-primary-text);
+
+  /* disabled state */
+  --brandy-swiper-navigation-button-background-color-disabled: #ffffff;
+  --brandy-swiper-navigation-button-icon-color-disabled: #d3dce5;
+  --brandy-swiper-navigation-button-border-disabled: 1.5px solid #d3dce5;
+  --brandy-swiper-navigation-button-shadow-disabled: 1.5px 1.5px 0px 0px #d3dce5;
+  /* hover state */
+
+  --brandy-swiper-navigation-button-background-color-hover: #ffffff;
+  --brandy-swiper-navigation-button-icon-color-hover: var(
+    --wp--preset--color--brandy-primary-text
+  );
+  --brandy-swiper-navigation-button-border-hover: 1.5px solid #ffffff;
+  --brandy-swiper-navigation-button-shadow-hover: 1.5px 1.5px 0px 0px
+    var(--wp--preset--color--brandy-primary-text);
+
+  /** --Swiper END--- */
+}

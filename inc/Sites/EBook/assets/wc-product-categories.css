@@ -1,0 +1,88 @@
+.wc-block-product-categories {
+  position: relative;
+}
+
+/* .wc-block-product-categories .wc-block-product-categories-list {
+  padding: 0 21px;
+} */
+
+.wc-block-product-categories .wc-block-product-categories-list-item__images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+.wc-block-product-categories
+  .wc-block-product-categories-list-item__images
+  .wc-block-product-categories-list-item__image:first-child {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+.wc-block-product-categories .wc-block-product-categories-list-item__image {
+  overflow: hidden;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+
+.wc-block-product-categories
+  .wc-block-product-categories-list-item__image.no-children {
+  grid-column: 1/-1 !important;
+}
+.wc-block-product-categories
+  .wc-block-product-categories-list-item__image.no-children
+  img {
+  aspect-ratio: 1.52;
+}
+
+.wc-block-product-categories .wc-block-product-categories-list-item__image img {
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all ease-in-out 0.4s;
+}
+
+.wc-block-product-categories .wc-block-product-categories-list-item__content {
+  display: flex;
+  margin-top: 12px;
+  gap: 8px;
+}
+
+.wc-block-product-categories
+  .wc-block-product-categories-list-item__content
+  svg {
+  margin-top: 5px;
+}
+
+.wc-block-product-categories
+  .wc-block-product-categories-list-item__content
+  .wc-block-product-categories-list-item__name {
+  margin: 0;
+  line-height: 1;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: "Alice, serif";
+  color: var(--wp--preset--color--brandy-primary-text);
+}
+
+.wc-block-product-categories
+  .wc-block-product-categories-list-item__content
+  .brandy-product-categories-list-item-count {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--wp--preset--color--brandy-secondary-text);
+}
+
+/** Editor */
+.block-editor-block-list__block .wc-block-product-categories-list {
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.block-editor-block-list__block .wc-block-product-categories-list > * {
+  max-width: 300px;
+}

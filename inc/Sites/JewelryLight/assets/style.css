@@ -1,0 +1,244 @@
+/** ====== Product template ====== */
+
+body {
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group {
+  position: relative;
+}
+.brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  .wc-block-components-product-button {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 44px;
+  height: 44px;
+  z-index: 10;
+}
+.brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wp-element-button {
+  box-shadow: 0px 5px 35px 0px #1229400d;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wp-block-woocommerce-product-button
+  > * {
+  position: absolute;
+  right: calc(100% + 5px);
+  top: 50%;
+  transform: translateY(-50%);
+  width: max-content;
+  background: #ffffff;
+  color: #122940;
+  font-size: 12px;
+  font-weight: 500;
+  box-shadow: 0px 1px 0px 0px #00000012;
+  padding: 5px 8px;
+  border-radius: 2px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  z-index: 2;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wp-block-woocommerce-product-button:hover
+  > * {
+  visibility: visible;
+  opacity: 1;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wp-block-woocommerce-product-button {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: unset;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"]
+  button::before,
+.brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  [data-type="woocommerce/product-button"]
+  button::before {
+  content: "\FF0B";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 24px;
+  color: currentColor;
+  font-weight: 400;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"]
+  a::before,
+.brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  [data-type="woocommerce/product-button"]
+  a::before {
+  content: "\10312";
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 17px);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 26px;
+  color: currentColor;
+  rotate: 45deg;
+  font-weight: 400;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  [data-wc-bind--hidden] {
+  display: none;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  .wp-block-button.wc-block-components-product-button
+  .wp-block-button__link.loading::after {
+  margin-left: 0;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  .wp-block-button.wc-block-components-product-button
+  .wp-block-button__link.loading::before {
+  display: none;
+}
+
+.brandy-site-product-template
+  > .product
+  .brandy-jewelry-light-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"] {
+  overflow: hidden;
+}
+
+.brandy-site-product-template
+  > .product
+  .brandy-jewelry-light-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img {
+  transition: all 0.2s ease-in-out;
+}
+
+.brandy-site-product-template
+  > .product:hover
+  .brandy-jewelry-light-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img {
+  transform: scale(1.1);
+}
+
+/** --Editor-- */
+
+.block-editor-iframe__body
+  .brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  .wp-block-woocommerce-product-button {
+  position: unset;
+}
+
+.block-editor-iframe__body
+  .brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  .wp-block-woocommerce-product-button
+  > .components-disabled {
+  position: unset;
+}
+
+.block-editor-iframe__body
+  .brandy-site-product-template
+  .brandy-jewelry-light-product-template__thumbnail-group
+  .wp-block-woocommerce-product-button
+  .add_to_cart_button {
+  font-size: 0;
+  width: 44px;
+  height: 44px;
+}
+
+/** ====== Product template end ====== */
+
+.wc-block-components-product-price del {
+  margin-right: 3px;
+}
+
+/** Newest posts */
+
+.brandy-jewelry-newest-posts {
+  --transition-duration: 0.3s;
+}
+
+.brandy-jewelry-newest-posts
+  .brandy-jewelry-newest-posts-list
+  > li
+  .brandy-jewelry-newest-posts-list__item-card {
+  transition: background var(--transition-duration) ease-in-out;
+}
+.brandy-jewelry-newest-posts
+  .brandy-jewelry-newest-posts-list
+  > li
+  .brandy-jewelry-newest-posts-list__item-card:hover {
+  background: rgba(245, 249, 252, 0.7) !important;
+}
+.brandy-jewelry-newest-posts
+  .brandy-jewelry-newest-posts-list
+  > li
+  .brandy-jewelry-newest-posts-list__item-card:hover
+  .brandy-link-underline-to-child
+  a {
+  background-size: 100% 1.5px;
+}
+
+.brandy-jewelry-newest-posts
+  .brandy-jewelry-newest-posts-list
+  > li
+  .brandy-jewelry-newest-posts-list__item-card
+  .brandy-jewelry-newest-posts-list__item-image {
+  overflow: hidden;
+  transition: filter var(--transition-duration) ease-in-out;
+}
+
+.brandy-jewelry-newest-posts
+  .brandy-jewelry-newest-posts-list
+  > li
+  .brandy-jewelry-newest-posts-list__item-card
+  .brandy-jewelry-newest-posts-list__item-image
+  img {
+  transition: transform var(--transition-duration) ease-in-out;
+}
+
+.brandy-jewelry-newest-posts
+  .brandy-jewelry-newest-posts-list
+  > li
+  .brandy-jewelry-newest-posts-list__item-card:hover
+  .brandy-jewelry-newest-posts-list__item-image
+  img {
+  transform: scale(1.07);
+}
+
+.brandy-jewelry-newest-posts
+  .brandy-jewelry-newest-posts-list
+  > li
+  .brandy-jewelry-newest-posts-list__item-card:hover
+  .brandy-jewelry-newest-posts-list__item-image {
+  filter: brightness(0.8);
+}

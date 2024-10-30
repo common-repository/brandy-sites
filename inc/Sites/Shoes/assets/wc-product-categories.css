@@ -1,0 +1,174 @@
+[data-block-name="woocommerce/product-categories"] {
+  position: relative;
+}
+.wc-block-product-categories[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-navigation {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-navigation-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-navigation-button.brandy-swiper-navigation-button--next {
+  right: 10px;
+}
+[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-navigation-button.brandy-swiper-navigation-button--back {
+  left: 10px;
+}
+
+.wc-block-product-categories .wc-block-product-categories-list-item__image img {
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all ease-in-out 0.8s;
+  background: white;
+}
+
+.wc-block-product-categories .wc-block-product-categories-list-item a {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+}
+.wc-block-product-categories .wc-block-product-categories-list-item a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0917271a;
+  opacity: 0;
+  visibility: visible;
+  transition: all ease-in-out 0.8s;
+  z-index: 1;
+}
+
+.wc-block-product-categories .wc-block-product-categories-list-item__name {
+  display: block !important;
+}
+
+.wc-block-product-categories .wc-block-product-categories-list-item__content {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  width: calc(100% - 30px);
+  padding: 20px;
+  background-color: #ffffffd9;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: var(--wp--preset--color--brandy-primary-text);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1;
+  z-index: 2;
+}
+
+.wc-block-product-categories
+  .wc-block-product-categories-list-item__content.has-count {
+  justify-content: space-between;
+}
+
+.wc-block-product-categories
+  .wc-block-product-categories-list-item-hidden-content {
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease-in-out 0.8s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 16px;
+}
+
+.wc-block-product-categories
+  .wc-block-product-categories-list-item
+  .brandy-product-categories-list-item-count {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--wp--preset--color--brandy-secondary-text);
+  text-transform: uppercase;
+}
+
+.wc-block-product-categories
+  .wc-block-product-categories-list-item:hover
+  .wc-block-product-categories-list-item-hidden-content,
+.wc-block-product-categories
+  .wc-block-product-categories-list-item
+  .wc-block-product-categories-list-item__name,
+.wc-block-product-categories
+  .wc-block-product-categories-list-item
+  .brandy-product-categories-list-item-count {
+  visibility: visible;
+  opacity: 1;
+  transition: all ease-in-out 0.8s;
+}
+
+.wc-block-product-categories
+  .wc-block-product-categories-list-item:hover
+  .wc-block-product-categories-list-item__name,
+.wc-block-product-categories
+  .wc-block-product-categories-list-item:hover
+  .brandy-product-categories-list-item-count {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.wc-block-product-categories
+  .wc-block-product-categories-list-item:hover
+  .wc-block-product-categories-list-item__image
+  img {
+  scale: 1.07;
+}
+.wc-block-product-categories
+  .wc-block-product-categories-list-item:hover
+  a::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.wc-block-product-categories
+  .wc-block-product-categories-list-item
+  .wc-block-product-categories-list-item__image {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.wc-block-product-categories .wc-block-product-categories-navigation {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+/** Editor */
+.block-editor-block-list__block .wc-block-product-categories-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
+  margin-left: 0 !important;
+}
+
+/* .block-editor-block-list__block .wc-block-product-categories-list > * {
+  max-width: 350;
+} */

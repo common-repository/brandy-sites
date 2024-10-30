@@ -1,0 +1,193 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Halloween v2 styles",
+  "description": "Halloween v2 site",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#E26B0F",
+          "slug": "brandy-accent",
+          "name": "Brandy accent"
+        },
+        {
+          "color": "#E0E3EC",
+          "slug": "brandy-primary-text",
+          "name": "Brandy primary text"
+        },
+        {
+          "color": "#A8AEAE",
+          "slug": "brandy-secondary-text",
+          "name": "Brandy secondary text"
+        },
+        {
+          "color": "#A7A9B01A",
+          "slug": "brandy-border",
+          "name": "Brandy border"
+        },
+        {
+          "color": "#14161B",
+          "slug": "brandy-theme-background",
+          "name": "Brandy theme background"
+        },
+        {
+          "color": "#0A1B2B",
+          "slug": "brandy-theme-secondary-background",
+          "name": "Brandy theme secondary background"
+        },
+        {
+          "color": "#151618",
+          "slug": "brandy-primary-black",
+          "name": "Brandy primary black"
+        },
+        {
+          "color": "#000000",
+          "slug": "brandy-theme-third-background",
+          "name": "Brandy theme third background"
+        },
+        {
+          "color": "#0A1B2B",
+          "slug": "brandy-theme-fourth-background",
+          "name": "Brandy theme fourth background"
+        },
+        {
+          "color": "#143351",
+          "slug": "brandy-theme-fifth-background",
+          "name": "Brandy theme fifth background"
+        }
+      ],
+      "duotone": [
+        {
+          "colors": ["#ffffff", "#111D27"],
+          "slug": "brandy-white-and-black",
+          "name": "Brandy white and black"
+        },
+        {
+          "colors": ["#111D27", "#ffffff"],
+          "slug": "brandy-black-and-white",
+          "name": "Brandy black and white"
+        },
+        {
+          "colors": ["#E0E3EC", "#15161A"],
+          "slug": "brandy-primary-and-dark",
+          "name": "Brandy primary and dark"
+        },
+        {
+          "colors": ["#A8AEAE", "#15161A"],
+          "slug": "brandy-secondary-and-dark",
+          "name": "Brandy secondary and darl"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Red Hat Mono",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./[brandy_sites_path]assets/fonts/red-hat-mono/red-hat-mono-regular.ttf"
+              ]
+            }
+          ],
+          "fontFamily": "\"Red Hat Mono\", monospace",
+          "name": "Red Hat Mono",
+          "slug": "red-hat-mono"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Butcherman",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./[brandy_sites_path]assets/fonts/butcherman/butcherman-regular.ttf"
+              ]
+            }
+          ],
+          "fontFamily": "\"Butcherman\", system-ui",
+          "name": "Butcherman",
+          "slug": "butcherman"
+        },
+        {
+          "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+          "slug": "system-fonts",
+          "name": "System fonts"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "960px",
+      "wideSize": "1680px"
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var:preset|font-family|red-hat-mono"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|red-hat-mono"
+        }
+      }
+    },
+    "blocks": {
+      "core/tag-cloud": {
+        "elements": {
+          "link": {
+            "color": {
+              "text": "var:preset|color|brandy-secondary-text",
+              "background": "#000000"
+            },
+            "border": {
+              "radius": "7px"
+            },
+            "spacing": {
+              "margin": {
+                "top": "0px",
+                "left": "0px",
+                "right": "0px",
+                "bottom": "0px"
+              },
+              "padding": {
+                "top": "0.5rem",
+                "bottom": "0.5rem",
+                "left": "0.75rem",
+                "right": "0.75rem"
+              }
+            },
+            ":hover": {
+              "color": {
+                "text": "var:preset|color|brandy-primary-text"
+              }
+            }
+          }
+        },
+        "variations": {
+          "outline": {
+            "typography": {
+              "fontSize": "14px"
+            }
+          }
+        }
+      },
+      "core/button": {
+        "variations": {
+          "outline": {
+            "color": {
+              "text": "var:preset|color|brandy-secondary-text",
+              "background": "#ffffff00"
+            },
+            "border": {
+              "color": "var:preset|color|brandy-secondary-text"
+            }
+          }
+        }
+      }
+    }
+  }
+}

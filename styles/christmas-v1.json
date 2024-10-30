@@ -1,0 +1,226 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Christmas v1 styles",
+  "description": "Christmas v1 site",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#377E62",
+          "slug": "brandy-accent",
+          "name": "Brandy accent"
+        },
+        {
+          "color": "#151617",
+          "slug": "brandy-primary-text",
+          "name": "Brandy primary text"
+        },
+        {
+          "color": "#969FA9",
+          "slug": "brandy-secondary-text",
+          "name": "Brandy secondary text"
+        },
+        {
+          "color": "#ECEDED",
+          "slug": "brandy-border",
+          "name": "Brandy border"
+        },
+        {
+          "color": "#ffffff",
+          "slug": "brandy-theme-background",
+          "name": "Brandy theme background"
+        },
+        {
+          "color": "#122941",
+          "slug": "brandy-primary-black",
+          "name": "Brandy primary black"
+        },
+        {
+          "color": "#969FA8",
+          "slug": "brandy-theme-secondary-background",
+          "name": "Brandy theme secondary background"
+        },
+        {
+          "color": "#FBFBFC",
+          "slug": "brandy-theme-third-background",
+          "name": "Brandy theme third background"
+        },
+        {
+          "color": "#EDF3F9",
+          "slug": "brandy-theme-fourth-background",
+          "name": "Brandy theme fourth background"
+        },
+        {
+          "color": "#EBF5FF",
+          "slug": "brandy-theme-fifth-background",
+          "name": "Brandy theme fifth background"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Licorice",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./[brandy_sites_path]assets/fonts/licorice/licorice-regular.ttf"
+              ]
+            }
+          ],
+          "fontFamily": "\"Licorice\", cursive",
+          "name": "Licorice",
+          "slug": "licorice"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Alice",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./[brandy_sites_path]assets/fonts/alice/alice-regular.ttf"
+              ]
+            }
+          ],
+          "fontFamily": "\"Alice\", serif",
+          "name": "Alice",
+          "slug": "alice"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Prata",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./[brandy_sites_path]assets/fonts/prata/prata-regular.ttf"
+              ]
+            }
+          ],
+          "fontFamily": "\"Prata\", sans-serif",
+          "name": "Prata",
+          "slug": "prata"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Outfit",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": ["file:./assets/fonts/outfit/outfit-regular.ttf"]
+            }
+          ],
+          "fontFamily": "\"Outfit\", sans-serif",
+          "name": "Outfit",
+          "slug": "outfit"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Bricolage Grotesque",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./[brandy_sites_path]assets/fonts/bricolage/bricolage.ttf"
+              ]
+            }
+          ],
+          "fontFamily": "\"Bricolage Grotesque\", sans-serif",
+          "name": "Bricolage Grotesque",
+          "slug": "bricolage"
+        },
+        {
+          "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+          "slug": "system-fonts",
+          "name": "System fonts"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "960px",
+      "wideSize": "1440px"
+    },
+    "shadow": {
+      "presets": [
+        {
+          "name": "Small",
+          "slug": "sm",
+          "shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)"
+        },
+        {
+          "name": "Medium",
+          "slug": "md",
+          "shadow": "0 4px  10px 0 rgba( 0, 0, 0, 0.3 )"
+        },
+        {
+          "name": "Large",
+          "slug": "lg",
+          "shadow": "0 8px  15px 0 rgba( 0, 0, 0, 0.3 )"
+        },
+        {
+          "name": "Christmas Shadow 1",
+          "slug": "brandy-christmas-shadow-1",
+          "shadow": "0px 5px 25px 0px #377E620D"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var:preset|font-family|outfit"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|prata"
+        }
+      },
+      "button": {
+        "border": {
+          "radius": "22px"
+        },
+        "spacing": {
+          "padding": {
+            "left": "30px",
+            "right": "30px",
+            "top": "13px",
+            "bottom": "13px"
+          }
+        },
+        "typography": {
+          "fontSize": "16px",
+          "fontWeight": "500",
+          "lineHeight": "1"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "variations": {
+          "outline": {
+            "color": {
+              "text": "var:preset|color|brandy-primary-text",
+              "background": "#ffffff00"
+            },
+            "border": {
+              "color": "#ECEDED",
+              "width": "1.5px"
+            },
+            "spacing": {
+              "padding": {
+                "left": "30px",
+                "right": "30px",
+                "top": "16px",
+                "bottom": "16px"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+body {
+  --brandy-outline-text-inside-color: #f8f9f9;
+  --brandy-scrolling-banner-duration: 60s;
+  --product-thumb-aspect-ratio: 1;
+  --wc-sale-badge-font-weight: 500;
+  --wc-sale-badge-distance: 16px;
+}
+
+.brandy-site-product-template__group {
+  --animation-duration: 0.3s;
+}
+
+.brandy-site-product-template__content-group {
+  position: relative;
+}
+
+.brandy-site-product-template__content-group
+  .brandy-site-product-template__content-group__action:not(
+    .block-editor-block-list__block
+  ) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition-property: opacity, visibility;
+  transition-duration: var(--animation-duration);
+  transition-timing-function: ease-in-out;
+}
+.brandy-site-product-template__content-group__product-info {
+  visibility: visible;
+  opacity: 1;
+  transition-property: opacity, visibility;
+  transition-timing-function: ease-in-out;
+  transition-duration: var(--animation-duration);
+}
+.brandy-site-product-template__content-group__action {
+  width: 100%;
+}
+
+.brandy-site-product-template__group
+  .brandy-site-product-template__thumbnail-group {
+  overflow: hidden;
+}
+
+.brandy-site-product-template__group
+  .brandy-site-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img {
+  aspect-ratio: 1;
+  transition: scale ease-in-out var(--animation-duration);
+}
+
+.brandy-site-product-template__group:hover
+  .brandy-site-product-template__content-group__product-info:not(
+    .block-editor-block-list__block
+  ) {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.brandy-site-product-template__group:hover
+  .brandy-site-product-template__content-group__action {
+  visibility: visible;
+  opacity: 1;
+}
+
+.brandy-site-product-template__group:hover
+  .brandy-site-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img {
+  scale: 1.1;
+}
+
+[data-block-name="woocommerce/product-price"]
+  .wc-block-components-product-price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+[data-block-name="woocommerce/product-price"][data-text-align="center"]
+  .wc-block-components-product-price {
+  justify-content: center;
+}
+[data-block-name="woocommerce/product-price"][data-text-align="right"]
+  .wc-block-components-product-price {
+  justify-content: right;
+}
+
+[data-block-name="woocommerce/product-price"]
+  .wc-block-components-product-price
+  del {
+  order: 1;
+}
+
+/** Swiper **/
+body {
+  --brandy-swiper-navigation-button-width: 50px;
+  --brandy-swiper-navigation-button-height: 50px;
+  --brandy-product-collection-swiper-navigation-offset-top: 45%;
+
+  --brandy-swiper-navigation-button-shadow: none;
+  --brandy-swiper-navigation-button-background-color: #ffffff;
+  --brandy-swiper-navigation-button-icon-color: #969fa9;
+
+  --brandy-swiper-navigation-button-background-color-hover: #ffffff;
+  --brandy-swiper-navigation-button-shadow-hover: 0px 4px 6px 0px #dbe1ec40;
+
+  --brandy-icon-global-stroke-width: 1.5px;
+}
+
+.brandy-swiper-navigation-button.swiper-button-disabled {
+  display: none;
+}

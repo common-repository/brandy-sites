@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<row>
+		<ID>1</ID>
+		<name>brandy_homepage</name>
+		<title><![CDATA[[Gutenberg] Brandy Home Page]]></title>
+		<content></content>
+		<page_display>front_page</page_display>
+	</row>
+	<row>
+		<ID>2</ID>
+		<name>brandy_blog</name>
+		<title><![CDATA[[Gutenberg] Brandy blog]]></title>
+		<content></content>
+		<page_display>blogs_page</page_display>
+	</row>
+	<row>
+		<ID>3</ID>
+		<name>brandy_houseware_about_us</name>
+		<title><![CDATA[[Gutenberg] Houseware About Us]]></title>
+		<page_template>page-wide-no-title</page_template>
+		<content><![CDATA[<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|70"},"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group"
+				style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
+				<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
+				<div class="wp-block-columns alignwide" style="margin-top:0;margin-bottom:0"><!-- wp:column -->
+					<div class="wp-block-column">
+						<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"responsive-h-2"} -->
+						<h2 class="wp-block-heading has-responsive-h-2-font-size" style="font-style:normal;font-weight:700">The
+							Place for<br>Creativity Minimalism</h2>
+						<!-- /wp:heading -->
+					</div>
+					<!-- /wp:column -->
+			
+					<!-- wp:column -->
+					<div class="wp-block-column"><!-- wp:paragraph {"fontSize":"large-to-small"} -->
+						<p class="has-large-to-small-font-size">We have been designing and producing our products in California
+							since 2012. At no time have we considered changing this. We put all our passion into our craft and don’t
+							think about stopping. That is why we already have the 5th generation of our products.<br><br>We get it.
+							Getting dressed can be hard and we’re here to help with that. Whether you’re more of a casual girl I
+							feel you, give me joggers all day every day or are looking to spice things up for your next date night,
+							you’ve come to the right place.</p>
+						<!-- /wp:paragraph -->
+			
+						<!-- wp:buttons {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"top":"2rem"}}},"fontSize":"large"} -->
+						<div class="wp-block-buttons has-custom-font-size has-large-font-size"
+							style="margin-top:2rem;font-style:normal;font-weight:600">
+							<!-- wp:button {"style":{"typography":{"lineHeight":"1.75"},"spacing":{"padding":{"left":"2rem","right":"2rem","top":"0.75rem","bottom":"0.75rem"}}},"fontSize":"large-to-small"} -->
+							<div class="wp-block-button has-custom-font-size has-large-to-small-font-size" style="line-height:1.75">
+								<a class="wp-block-button__link wp-element-button"
+									style="padding-top:0.75rem;padding-right:2rem;padding-bottom:0.75rem;padding-left:2rem">Explore
+									our Products</a>
+							</div>
+							<!-- /wp:button -->
+						</div>
+						<!-- /wp:buttons -->
+					</div>
+					<!-- /wp:column -->
+				</div>
+				<!-- /wp:columns -->
+			</div>
+			<!-- /wp:group -->
+			
+			<!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+			<div class="wp-block-columns"
+				style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)">
+				<!-- wp:column {"width":""} -->
+				<div class="wp-block-column">
+					<!-- wp:group {"style":{"background":{"backgroundImage":{"url":"https://images.wpbrandy.com/uploads/fashion-about-us-img-1-min.png","id":93,"source":"file","title":"fashion-about-us-img-1-min"},"backgroundSize":"cover","backgroundPosition":"23% 50%"},"dimensions":{"minHeight":"570px"},"border":{"radius":{"topLeft":"0px","topRight":"10px","bottomRight":"10px","bottomLeft":"0px"}}},"layout":{"type":"constrained"}} -->
+					<div class="wp-block-group"
+						style="border-top-left-radius:0px;border-top-right-radius:10px;border-bottom-left-radius:0px;border-bottom-right-radius:10px;min-height:570px">
+					</div>
+					<!-- /wp:group -->
+				</div>
+				<!-- /wp:column -->
+			
+				<!-- wp:column {"width":"55%"} -->
+				<div class="wp-block-column" style="flex-basis:55%">
+					<!-- wp:group {"style":{"background":{"backgroundImage":{"url":"https://images.wpbrandy.com/uploads/fashion-about-us-img-2-min.png","id":94,"source":"file","title":"fashion-about-us-img-2-min"},"backgroundPosition":"50% 50%"},"dimensions":{"minHeight":"570px"},"border":{"radius":"10px"}},"layout":{"type":"constrained"}} -->
+					<div class="wp-block-group" style="border-radius:10px;min-height:570px"></div>
+					<!-- /wp:group -->
+				</div>
+				<!-- /wp:column -->
+			
+				<!-- wp:column -->
+				<div class="wp-block-column">
+					<!-- wp:group {"style":{"background":{"backgroundImage":{"url":"https://images.wpbrandy.com/uploads/fashion-about-us-img-3-min.png","id":95,"source":"file","title":"fashion-about-us-img-3-min"},"backgroundPosition":"100% 50%"},"dimensions":{"minHeight":"570px"},"border":{"radius":{"topLeft":"10px","topRight":"0px","bottomLeft":"10px","bottomRight":"0px"}}},"layout":{"type":"constrained"}} -->
+					<div class="wp-block-group"
+						style="border-top-left-radius:10px;border-top-right-radius:0px;border-bottom-left-radius:10px;border-bottom-right-radius:0px;min-height:570px">
+					</div>
+					<!-- /wp:group -->
+				</div>
+				<!-- /wp:column -->
+			</div>
+			<!-- /wp:columns -->
+			
+			<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|70"},"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group"
+				style="margin-bottom:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
+				<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"bottom":"0"}}}} -->
+				<div class="wp-block-columns alignwide" style="margin-bottom:0"><!-- wp:column -->
+					<div class="wp-block-column">
+						<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"spacing":{"margin":{"bottom":"var:preset|spacing|10"}}},"fontSize":"responsive-h-2"} -->
+						<h2 class="wp-block-heading has-responsive-h-2-font-size"
+							style="margin-bottom:var(--wp--preset--spacing--10);font-style:normal;font-weight:700">This is our
+							Mission.<br>We’re Remit</h2>
+						<!-- /wp:heading -->
+			
+						<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
+						<p style="margin-top:0;margin-bottom:0">We love what we do. And that’s why we are a minimalism flagship
+							store for women!</p>
+						<!-- /wp:paragraph -->
+					</div>
+					<!-- /wp:column -->
+			
+					<!-- wp:column {"className":""} -->
+					<div class="wp-block-column"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+						<div class="wp-block-group">
+							<!-- wp:columns {"style":{"spacing":{"margin":{"bottom":"2em"},"blockGap":{"left":"2em"}}}} -->
+							<div class="wp-block-columns" style="margin-bottom:2em"><!-- wp:column -->
+								<div class="wp-block-column">
+									<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"36px","fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"}}}},"textColor":"cyan-bluish-gray"} -->
+									<h3 class="wp-block-heading has-cyan-bluish-gray-color has-text-color has-link-color"
+										style="font-size:36px;font-style:normal;font-weight:700">01.</h3>
+									<!-- /wp:heading -->
+			
+									<!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large-to-small"} -->
+									<h4 class="wp-block-heading has-large-to-small-font-size"
+										style="font-style:normal;font-weight:600">Novelty buying solution.</h4>
+									<!-- /wp:heading -->
+			
+									<!-- wp:paragraph -->
+									<p>Forget the hefty sporadic trips to get the most basic items like shirts, dresses, bras, and
+										socks. Just a few mouse clicks and a fully wardrobe will knock on your door in no time.</p>
+									<!-- /wp:paragraph -->
+								</div>
+								<!-- /wp:column -->
+			
+								<!-- wp:column -->
+								<div class="wp-block-column">
+									<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"36px","fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"}}}},"textColor":"cyan-bluish-gray"} -->
+									<h3 class="wp-block-heading has-cyan-bluish-gray-color has-text-color has-link-color"
+										style="font-size:36px;font-style:normal;font-weight:700">02.</h3>
+									<!-- /wp:heading -->
+			
+									<!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large-to-small"} -->
+									<h4 class="wp-block-heading has-large-to-small-font-size"
+										style="font-style:normal;font-weight:600">Smart shopping experience.</h4>
+									<!-- /wp:heading -->
+			
+									<!-- wp:paragraph -->
+									<p>We offer the ultimate in shopping comfortably. You're free to view any item, track what you
+										want, buy in a snap, and even get 60-day free returns for any reason.</p>
+									<!-- /wp:paragraph -->
+								</div>
+								<!-- /wp:column -->
+							</div>
+							<!-- /wp:columns -->
+			
+							<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"2em"}}}} -->
+							<div class="wp-block-columns"><!-- wp:column -->
+								<div class="wp-block-column">
+									<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"36px","fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"}}}},"textColor":"cyan-bluish-gray"} -->
+									<h3 class="wp-block-heading has-cyan-bluish-gray-color has-text-color has-link-color"
+										style="font-size:36px;font-style:normal;font-weight:700">03.</h3>
+									<!-- /wp:heading -->
+			
+									<!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large-to-small"} -->
+									<h4 class="wp-block-heading has-large-to-small-font-size"
+										style="font-style:normal;font-weight:600">Reasonable and clear costs.</h4>
+									<!-- /wp:heading -->
+			
+									<!-- wp:paragraph -->
+									<p>All you see on the web is all you pay, committed to no costs incurred during the purchase and
+										return process.</p>
+									<!-- /wp:paragraph -->
+								</div>
+								<!-- /wp:column -->
+			
+								<!-- wp:column -->
+								<div class="wp-block-column">
+									<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"36px","fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"}}}},"textColor":"cyan-bluish-gray"} -->
+									<h3 class="wp-block-heading has-cyan-bluish-gray-color has-text-color has-link-color"
+										style="font-size:36px;font-style:normal;font-weight:700">04.</h3>
+									<!-- /wp:heading -->
+			
+									<!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large-to-small"} -->
+									<h4 class="wp-block-heading has-large-to-small-font-size"
+										style="font-style:normal;font-weight:600">Support to shop comfortably.</h4>
+									<!-- /wp:heading -->
+			
+									<!-- wp:paragraph -->
+									<p>Our team is knowledgeable about product materials, process, and passion for minimal design.
+										We are always willing to share our deep knowledge any time.</p>
+									<!-- /wp:paragraph -->
+								</div>
+								<!-- /wp:column -->
+							</div>
+							<!-- /wp:columns -->
+						</div>
+						<!-- /wp:group -->
+					</div>
+					<!-- /wp:column -->
+				</div>
+				<!-- /wp:columns -->
+			</div>
+			<!-- /wp:group -->
+			
+			<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group"
+				style="margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
+				<!-- wp:pattern {"slug":"brandy/company-figures"} /-->
+			</div>
+			<!-- /wp:group -->
+			
+			<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"},"margin":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group"
+				style="margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
+				<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"fontSize":"responsive-h-2"} -->
+				<h2 class="wp-block-heading has-text-align-center has-responsive-h-2-font-size"
+					style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:700">We believe that people
+					are essential.</h2>
+				<!-- /wp:heading -->
+			
+				<!-- wp:pattern {"slug":"brandy/team-members"} /-->
+			</div>
+			<!-- /wp:group -->
+			
+			<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"},"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained","contentSize":"","justifyContent":"center"}} -->
+			<div class="wp-block-group"
+				style="margin-bottom:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
+				<!-- wp:image {"sizeSlug":"large","align":"wide"} -->
+				<figure class="wp-block-image alignwide size-large"><img
+						src="https://images.wpbrandy.com/uploads/fashion-about-us-img-4-min.png" alt="" /></figure>
+				<!-- /wp:image -->
+			</div>
+			<!-- /wp:group -->
+			
+			<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"0"},"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group"
+				style="margin-bottom:0;padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
+				<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"40px"}}}} -->
+				<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"blockGap":"30px"}}} -->
+					<div class="wp-block-column">
+						<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"bottom"}} -->
+						<div class="wp-block-group">
+							<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|brandy_accent"}}},"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"10rem","lineHeight":"0.8"}},"textColor":"brandy_accent"} -->
+							<p class="has-brandy-accent-color has-text-color has-link-color"
+								style="font-size:10rem;font-style:normal;font-weight:700;line-height:0.8">10</p>
+							<!-- /wp:paragraph -->
+			
+							<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|secondary_text"}}},"layout":{"selfStretch":"fixed","flexSize":"130px"}},"textColor":"secondary_text","fontSize":"large-to-small"} -->
+							<p class="has-secondary-text-color has-text-color has-link-color has-large-to-small-font-size"
+								style="font-style:normal;font-weight:600;text-transform:uppercase"><sub>years of experience in
+									fashion</sub></p>
+							<!-- /wp:paragraph -->
+						</div>
+						<!-- /wp:group -->
+			
+						<!-- wp:paragraph {"className":"","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"2-xl"} -->
+						<p class="has-2-xl-font-size" style="font-style:normal;font-weight:400">We have won for the past <strong>10
+								years</strong>. And
+							creating quality products is the key to our success. We’re Remit!</p>
+						<!-- /wp:paragraph -->
+					</div>
+					<!-- /wp:column -->
+			
+					<!-- wp:column -->
+					<div class="wp-block-column">
+						<!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large-to-small"} -->
+						<h4 class="wp-block-heading has-large-to-small-font-size"
+							style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:600">How will my
+							parcel be delivered?</h4>
+						<!-- /wp:heading -->
+			
+						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|palette_4"}}},"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|40"}}},"textColor":"palette_4"} -->
+						<p class="has-palette-4-color has-text-color has-link-color"
+							style="margin-top:0;margin-bottom:var(--wp--preset--spacing--40)">Through
+							the discussion of the requirements as well as the needs of the customer. We've got our customers'
+							insights and ideas in mind and have the right technology recommendations to transform your business.
+							Help your business breakthrough into the future.</p>
+						<!-- /wp:paragraph -->
+			
+						<!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large-to-small"} -->
+						<h4 class="wp-block-heading has-large-to-small-font-size"
+							style="margin-bottom:var(--wp--preset--spacing--20);font-style:normal;font-weight:600">How will my
+							parcel be delivered?</h4>
+						<!-- /wp:heading -->
+			
+						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|palette_4"}}},"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|40"}}},"textColor":"palette_4"} -->
+						<p class="has-palette-4-color has-text-color has-link-color"
+							style="margin-top:0;margin-bottom:var(--wp--preset--spacing--40)">Through
+							the discussion of the requirements as well as the needs of the customer. We've got our customers'
+							insights and ideas in mind and have the right technology recommendations to transform your business.
+							Help your business breakthrough into the future.</p>
+						<!-- /wp:paragraph -->
+					</div>
+					<!-- /wp:column -->
+				</div>
+				<!-- /wp:columns -->
+			</div>
+			<!-- /wp:group -->]]></content>
+
+	</row>
+	<row>
+		<ID>4</ID>
+		<name>brandy_houseware_contact_us</name>
+		<page_template>page-no-title</page_template>
+		<title><![CDATA[[Gutenberg] Houseware Contact Us]]></title>
+		<content><![CDATA[<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"grid","minimumColumnWidth":"31rem","columnCount":null}} -->
+			<div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained","contentSize":"460px","justifyContent":"left"}} -->
+			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"30px","padding":{"top":"2.5rem","bottom":"2.5rem","left":"1.8rem","right":"1.8rem"}},"border":{"radius":"12px"},"color":{"background":"#f9fbfd"}},"layout":{"type":"constrained","contentSize":"","justifyContent":"left"}} -->
+			<div class="wp-block-group has-background" style="border-radius:12px;background-color:#f9fbfd;padding-top:2.5rem;padding-right:1.8rem;padding-bottom:2.5rem;padding-left:1.8rem"><!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+			<div class="wp-block-group"><!-- wp:image {"width":"16px","height":"16px","scale":"contain","sizeSlug":"large"} -->
+			<figure class="wp-block-image size-large is-resized"><img src="https://images.wpbrandy.com/uploads/contact-info-icon.png" alt="" style="object-fit:contain;width:16px;height:16px"/></figure>
+			<!-- /wp:image -->
+			
+			<!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} -->
+			<h5 class="wp-block-heading has-large-font-size" style="font-style:normal;font-weight:600">Contact
+												info:
+											</h5>
+			<!-- /wp:heading --></div>
+			<!-- /wp:group -->
+			
+			<!-- wp:group {"style":{"spacing":{"blockGap":"4px","padding":{"left":"34px"}}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group" style="padding-left:34px"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
+			<p style="font-style:normal;font-weight:300">Call us today: <strong>6-146-389-574</strong></p>
+			<!-- /wp:paragraph -->
+			
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
+			<p style="font-style:normal;font-weight:300">Send us an email: <strong>info.help@remit.com</strong>
+											</p>
+			<!-- /wp:paragraph -->
+			
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
+			<p style="font-style:normal;font-weight:300">Career opportunities: <strong>career@remit.com</strong>
+											</p>
+			<!-- /wp:paragraph --></div>
+			<!-- /wp:group --></div>
+			<!-- /wp:group -->
+			
+			<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+			<div class="wp-block-group"><!-- wp:image {"width":"16px","height":"16px","scale":"contain","sizeSlug":"large"} -->
+			<figure class="wp-block-image size-large is-resized"><img src="https://images.wpbrandy.com/uploads/contact-clock-icon.png" alt="" style="object-fit:contain;width:16px;height:16px"/></figure>
+			<!-- /wp:image -->
+			
+			<!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} -->
+			<h5 class="wp-block-heading has-large-font-size" style="font-style:normal;font-weight:600">Work
+												hours
+											</h5>
+			<!-- /wp:heading --></div>
+			<!-- /wp:group -->
+			
+			<!-- wp:group {"style":{"spacing":{"blockGap":"4px","padding":{"left":"34px"}}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group" style="padding-left:34px"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
+			<p style="font-style:normal;font-weight:300">Monday – Thursday at 09:00 – 21:30</p>
+			<!-- /wp:paragraph -->
+			
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
+			<p style="font-style:normal;font-weight:300">Friday - Saturday at 07:30 - 23:45</p>
+			<!-- /wp:paragraph -->
+			
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
+			<p style="font-style:normal;font-weight:300">Sunday closed</p>
+			<!-- /wp:paragraph --></div>
+			<!-- /wp:group --></div>
+			<!-- /wp:group -->
+			
+			<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+			<div class="wp-block-group"><!-- wp:image {"width":"16px","height":"16px","scale":"contain","sizeSlug":"large"} -->
+			<figure class="wp-block-image size-large is-resized"><img src="https://images.wpbrandy.com/uploads/contact-location-icon.png" alt="" style="object-fit:contain;width:16px;height:16px"/></figure>
+			<!-- /wp:image -->
+			
+			<!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} -->
+			<h5 class="wp-block-heading has-large-font-size" style="font-style:normal;font-weight:600">Remit
+												store
+											</h5>
+			<!-- /wp:heading --></div>
+			<!-- /wp:group -->
+			
+			<!-- wp:group {"style":{"spacing":{"blockGap":"4px","padding":{"left":"34px"}}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group" style="padding-left:34px"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
+			<p style="font-style:normal;font-weight:300">70 Washington Square South New York, <br>NY 10012,
+												United
+												States</p>
+			<!-- /wp:paragraph --></div>
+			<!-- /wp:group --></div>
+			<!-- /wp:group -->
+			
+			<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+			<div class="wp-block-group"><!-- wp:image {"width":"16px","height":"16px","scale":"contain","sizeSlug":"large"} -->
+			<figure class="wp-block-image size-large is-resized"><img src="https://images.wpbrandy.com/uploads/contact-link-icon.png" alt="" style="object-fit:contain;width:16px;height:16px"/></figure>
+			<!-- /wp:image -->
+			
+			<!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} -->
+			<h5 class="wp-block-heading has-large-font-size" style="font-style:normal;font-weight:600">Follow
+												socials
+											</h5>
+			<!-- /wp:heading --></div>
+			<!-- /wp:group -->
+			
+			<!-- wp:social-links {"className":"","style":{"spacing":{"padding":{"left":"2rem"}}}} -->
+			<ul class="wp-block-social-links" style="padding-left:2rem"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
+			
+			<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
+			
+			<!-- wp:social-link {"url":"#","service":"youtube"} /-->
+			
+			<!-- wp:social-link {"url":"#","service":"tiktok"} /--></ul>
+			<!-- /wp:social-links --></div>
+			<!-- /wp:group --></div>
+			<!-- /wp:group --></div>
+			<!-- /wp:group -->
+			
+			<!-- wp:group {"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group"><!-- wp:heading {"style":{"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"var:preset|spacing|10"}}},"fontSize":"responsive-h-2"} -->
+			<h2 class="wp-block-heading has-responsive-h-2-font-size" style="margin-top:0;margin-right:0;margin-bottom:var(--wp--preset--spacing--10);margin-left:0">We're here to
+									help you!</h2>
+			<!-- /wp:heading -->
+			
+			<!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40","top":"0"}}}} -->
+			<p style="margin-top:0;margin-bottom:var(--wp--preset--spacing--40)">Have a question, comment, or brilliant idea
+									you'd like to share? Please fill out the form below and we’ll get back to you as soon as possible.</p>
+			<!-- /wp:paragraph -->
+			
+			<!-- wp:brandy/form {"action":"custom","metadata":{"categories":["brandy"],"patternName":"brandy/simple-contact-form","name":"Brandy simple contact form"}} -->
+			<div class="wp-block-brandy-form"><!-- wp:columns -->
+			<div class="wp-block-columns"><!-- wp:column -->
+			<div class="wp-block-column"><!-- wp:brandy/form-input {"name":"full_name","isRequired":false,"label":"Full name:","id":"full_name","autocomplete":false} -->
+			<div class="wp-block-brandy-form-input"><label class="wp-block-brandy-form-label" for="full_name">Full name:</label><input class="wp-block-brandy-form-field" id="full_name" name="full_name" autocomplete="off" type="text"/></div>
+			<!-- /wp:brandy/form-input -->
+			
+			<!-- wp:brandy/form-email {"name":"email_address","label":"Email Address:","id":"email_address","autocomplete":false} -->
+			<div class="wp-block-brandy-form-email"><label class="wp-block-brandy-form-label" for="email_address">Email Address:</label><input class="wp-block-brandy-form-field" type="text" id="email_address" name="email_address" autocomplete="off" pattern="/^[a-zA-Z0-9.!#$%&amp;’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)*$/"/></div>
+			<!-- /wp:brandy/form-email --></div>
+			<!-- /wp:column -->
+			
+			<!-- wp:column -->
+			<div class="wp-block-column"><!-- wp:brandy/form-phone {"name":"phone_number","label":"Phone Number:","id":"phone_number","autocomplete":false} -->
+			<div class="wp-block-brandy-form-phone"><label class="wp-block-brandy-form-label" for="phone_number">Phone Number:</label><input class="wp-block-brandy-form-field" type="tel" id="phone_number" name="phone_number" autocomplete="off" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/></div>
+			<!-- /wp:brandy/form-phone -->
+			
+			<!-- wp:brandy/form-input {"name":"subject","isRequired":false,"label":"Subject:","id":"subject","autocomplete":false} -->
+			<div class="wp-block-brandy-form-input"><label class="wp-block-brandy-form-label" for="subject">Subject:</label><input class="wp-block-brandy-form-field" id="subject" name="subject" autocomplete="off" type="text"/></div>
+			<!-- /wp:brandy/form-input --></div>
+			<!-- /wp:column --></div>
+			<!-- /wp:columns -->
+			
+			<!-- wp:brandy/form-input {"name":"message","isRequired":false,"label":"Message:","id":"message","autocomplete":false,"type":"textarea"} -->
+			<div class="wp-block-brandy-form-input"><label class="wp-block-brandy-form-label" for="message">Message:</label><textarea class="wp-block-brandy-form-field" id="message" name="message" autocomplete="off" rows="5"></textarea></div>
+			<!-- /wp:brandy/form-input -->
+			
+			<!-- wp:group {"layout":{"type":"constrained","contentSize":"120px"}} -->
+			<div class="wp-block-group"><!-- wp:brandy/form-submit -->
+			<button class="wp-element-button has-text-align-center"
+											class="wp-block-brandy-form-submit wp-element-button has-text-align-center"
+											style="width:100%">Submit</button>
+			<!-- /wp:brandy/form-submit --></div>
+			<!-- /wp:group --></div>
+			<!-- /wp:brandy/form --></div>
+			<!-- /wp:group --></div>
+			<!-- /wp:group -->]]></content>
+	</row>
+</root>

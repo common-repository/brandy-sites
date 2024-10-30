@@ -1,0 +1,110 @@
+[data-block-name="woocommerce/product-categories"] {
+  position: relative;
+}
+
+[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-list-item__image {
+  overflow: hidden;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+
+[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-list-item__image
+  img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all ease-in-out 0.6s;
+}
+
+[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-list-item__content {
+  text-align: center;
+  margin-top: 10px;
+}
+
+[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-list-item__content
+  .wc-block-product-categories-list-item__name {
+  color: var(--wp--preset--color--brandy-primary-text);
+  font-family: "Alice";
+  text-decoration: var(--brandy-text-underline-decoration, none);
+  text-underline-offset: var(--brandy-text-underline-offset, 0);
+  background-image: var(
+    --brandy-text-underline-image,
+    linear-gradient(currentColor, currentColor)
+  );
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: var(--brandy-text-underline-image-size, 0% 1px);
+  transition-property: var(--brandy-text-underline-transition-property, all);
+  transition-duration: var(--brandy-text-underline-transition-duration, 0.4s);
+  transition-timing-function: var(
+    --brandy-text-underline-transition-timing-function,
+    ease-in-out
+  );
+}
+
+[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-list-item:hover
+  img {
+  transform: scale(1.1);
+}
+
+[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-list-item:hover
+  .wc-block-product-categories-list-item__name {
+  background-size: var(--brandy-text-underline-image-size-hover, 100% 1px);
+  text-decoration: var(--brandy-text-underline-decoration-hover, none);
+}
+
+[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-list-item__content
+  .brandy-product-categories-list-item-count {
+  margin-top: 3px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--wp--preset--color--brandy-secondary-text);
+  letter-spacing: 1.2px;
+}
+
+[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-list-item__content
+  .brandy-product-categories-list-item-count::after,
+[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-list-item__content
+  .brandy-product-categories-list-item-count::before {
+  display: none;
+}
+
+[data-block-name="woocommerce/product-categories"]
+  .wc-block-product-categories-navigation-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(calc(-50% - 20px));
+  z-index: 2;
+}
+[data-block-name="woocommerce/product-categories"]
+  .brandy-swiper-navigation-button--back {
+  left: 10px;
+}
+[data-block-name="woocommerce/product-categories"]
+  .brandy-swiper-navigation-button--next {
+  right: 10px;
+}
+
+/** Editor */
+.block-editor-block-list__block .wc-block-product-categories-list {
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.block-editor-block-list__block .wc-block-product-categories-list > * {
+  max-width: 215px;
+}

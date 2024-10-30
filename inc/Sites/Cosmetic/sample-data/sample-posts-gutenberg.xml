@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <ID>1</ID>
+    <name>brandy_cosmetic_post_1</name>
+    <title><![CDATA[Before & After Transformation]]></title>
+    <content><![CDATA[Swipe to see this stunning transformation! ✨ We started with a fresh, natural base and layered on some glam elements to take it to the next level. From a simple day look to a show-stopping evening style, this transformation shows just how versatile makeup can be. Whether you’re prepping for a special event or just want to change up your everyday look, the right products and techniques can make all the difference. Which look do you love more? Comment below and let me know! #MakeupMagic #GlamTransformation]]></content>
+    <featured_image>https://images.wpbrandy.com/uploads/cosmetic-post-img-1-min.png</featured_image>
+    <category domain="category" nicename="makeup"><![CDATA[Makeup]]></category>
+    <category domain="post_tag" nicename="before-and-after"><![CDATA[BeforeAndAfter]]></category>
+    <comment>Absolutely amazing transformation! 💫 The evening look is stunning.</comment>
+    <comment>I’m loving the glam look! Any tips on how to achieve it?</comment>
+  </row>
+  <row>
+    <ID>2</ID>
+    <name>brandy_cosmetic_post_2</name>
+    <title><![CDATA[Product Review]]></title>
+    <content><![CDATA[Just tried the new [Product Name] and WOW 😍! It’s everything I hoped for and more. This [Product Type] offers incredible coverage, a silky texture, and it lasts all day without needing touch-ups. I’ve swatched it here to show you the true colors and how it looks on the skin. If you’re looking for a [specific benefit, e.g., full-coverage foundation], this one might just be your new holy grail. Swipe to see my honest review and let me know what you think! #BeautyReview #MustHave]]></content>
+    <featured_image>https://images.wpbrandy.com/uploads/cosmetic-post-img-2-min.png</featured_image>
+    <category domain="category" nicename="product-review"><![CDATA[Product Review]]></category>
+    <category domain="post_tag" nicename="swatches"><![CDATA[Swatches]]></category>
+    <comment>our review is so helpful! I’m definitely adding this to my wishlist. 🛒</comment>
+    <comment>How does it compare to [Similar Product]? I’ve been curious about this one.</comment>
+  </row>
+  <row>
+    <ID>3</ID>
+    <name>brandy_cosmetic_post_3</name>
+    <title><![CDATA[Daily Skincare Routine]]></title>
+    <content><![CDATA[Here’s a peek into my daily skincare routine! 🌟 Maintaining healthy, glowing skin is all about consistency and the right products. I start with a gentle cleanser to remove impurities, followed by a hydrating toner to prep my skin. Next, I apply a nourishing serum packed with vitamins, and finish with a rich moisturizer and SPF to protect against sun damage. These steps keep my skin looking fresh and radiant every day. What are your go-to skincare products? Share in the comments! #SkincareRoutine #GlowUp]]></content>
+    <featured_image>https://images.wpbrandy.com/uploads/cosmetic-post-img-3-min.png</featured_image>
+    <category domain="category" nicename="skincare"><![CDATA[Skincare]]></category>
+    <category domain="post_tag" nicename="daily-routine"><![CDATA[DailyRoutine]]></category>
+    <comment>Your skin looks amazing! I need to try these products. 😍</comment>
+    <comment>Do you have any recommendations for sensitive skin?</comment>
+  </row>
+  <row>
+    <ID>4</ID>
+    <name>brandy_cosmetic_post_4</name>
+    <title><![CDATA[Makeup Tutorial]]></title>
+    <content><![CDATA[Want to learn how to achieve this bold eye look? Watch my step-by-step tutorial where I show you how to create a dramatic, eye-catching style perfect for any occasion. From applying the base eyeshadow to adding the finishing touches with eyeliner and mascara, I’ve got you covered. This look is great for making a statement and adding a pop of color to your makeup routine. Check out the video and let me know if you try it out! #MakeupTutorial #EyeCandy]]></content>
+    <featured_image>https://images.wpbrandy.com/uploads/cosmetic-post-img-4-min.png</featured_image>
+    <category domain="category" nicename="tutorial"><![CDATA[Tutorial]]></category>
+    <category domain="post_tag" nicename="bold-eyes"><![CDATA[BoldEyes]]></category>
+    <comment>This tutorial is fantastic! I can’t wait to try it. 🎨</comment>
+    <comment>Do you use any specific brushes for this look?</comment>
+  </row>
+  <row>
+    <ID>5</ID>
+    <name>brandy_cosmetic_post_5</name>
+    <title><![CDATA[Favorite Beauty Tools]]></title>
+    <content><![CDATA[These are my top 5 beauty tools that I can’t live without! 🛠️ From my favorite makeup brushes to the best blending sponges, these tools make applying makeup a breeze. Each tool has a unique function, whether it’s for creating a flawless base or perfecting your eyeshadow. Investing in high-quality tools can truly enhance your beauty routine and make all the difference. Swipe to see why these are my must-haves! #BeautyTools #MakeupEssentials]]></content>
+    <featured_image>https://images.wpbrandy.com/uploads/cosmetic-post-img-5-min.png</featured_image>
+    <category domain="category" nicename="beauty-tools"><![CDATA[Beauty Tools]]></category>
+    <category domain="post_tag" nicename="toolkit"><![CDATA[ToolKit]]></category>
+    <comment>I’ve been eyeing that brush! How does it perform?</comment>
+    <comment>Great list! Do you have a favorite tool for foundation?</comment>
+  </row>
+  <row>
+    <ID>6</ID>
+    <name>brandy_cosmetic_post_6</name>
+    <title><![CDATA[Seasonal Makeup Trends]]></title>
+    <content><![CDATA[Fall is here and so are the latest makeup trends! 🍂 This season, think warm tones, rich textures, and a touch of sparkle. From earthy browns to deep reds, these colors are perfect for creating that cozy, autumnal vibe. Whether you’re looking for a bold statement or a subtle shift in your makeup routine, these trends will help you embrace the season in style. What’s your favorite fall trend? Let me know in the comments! #FallTrends #AutumnBeauty]]></content>
+    <featured_image>https://images.wpbrandy.com/uploads/cosmetic-post-img-min.png</featured_image>
+    <category domain="category" nicename="seasonal-trends"><![CDATA[Seasonal Trends]]></category>
+    <category domain="post_tag" nicename="fall-makeup"><![CDATA[FallMakeup]]></category>
+    <comment>I’m obsessed with the fall shades this year! 🍁</comment>
+    <comment>Which of these trends is your favorite for this season?</comment>
+  </row>
+</root>

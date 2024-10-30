@@ -1,0 +1,18 @@
+.wp-block-tag-cloud {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.wp-block-tag-cloud .tag-cloud-link {
+  position: relative;
+  transition-property: transform, color, box-shadow;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  box-shadow: 0px 7px 35px 0px #0000000d, 0px 1px 2px 0px #00000008;
+  text-transform: capitalize;
+}
+
+.wp-block-tag-cloud .tag-cloud-link:hover {
+  box-shadow: 0px 10px 35px 0px #0000001a, 0px 1px 2px 0px #00000008;
+}

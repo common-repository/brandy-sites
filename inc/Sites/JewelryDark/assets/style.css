@@ -1,0 +1,236 @@
+/** ====== Product template ====== */
+
+.brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group {
+  position: relative;
+}
+.brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  .wc-block-components-product-button {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 44px;
+  height: 44px;
+}
+.brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wp-element-button {
+  box-shadow: 0px 5px 35px 0px #1229400d;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wp-block-woocommerce-product-button
+  > * {
+  position: absolute;
+  right: calc(100% + 5px);
+  top: 50%;
+  transform: translateY(-50%);
+  width: max-content;
+  background: #ffffff;
+  color: #122940;
+  font-size: 12px;
+  font-weight: 500;
+  box-shadow: 0px 1px 0px 0px #00000012;
+  padding: 5px 8px;
+  border-radius: 2px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 2;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wp-block-woocommerce-product-button:hover
+  > * {
+  visibility: visible;
+  opacity: 1;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wp-block-woocommerce-product-button {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: unset;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"]
+  button::before,
+.brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  [data-type="woocommerce/product-button"]
+  button::before {
+  content: "\FF0B";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 24px;
+  color: currentColor;
+  font-weight: 400;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"]
+  a::before,
+.brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  [data-type="woocommerce/product-button"]
+  a::before {
+  content: "\10312";
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 17px);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 26px;
+  color: currentColor;
+  rotate: 45deg;
+  font-weight: 400;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  [data-wc-bind--hidden] {
+  display: none;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  .wp-block-button.wc-block-components-product-button
+  .wp-block-button__link.loading::after {
+  margin-left: 0;
+}
+
+.brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  .wp-block-button.wc-block-components-product-button
+  .wp-block-button__link.loading::before {
+  display: none;
+}
+
+.brandy-site-product-template
+  > .product
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"] {
+  overflow: hidden;
+}
+
+.brandy-site-product-template
+  > .product
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img {
+  transition: all 0.2s ease-in-out;
+}
+
+.brandy-site-product-template
+  > .product:hover
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img {
+  transform: scale(1.1);
+}
+
+/** --Editor-- */
+
+.block-editor-iframe__body
+  .brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  .wp-block-woocommerce-product-button {
+  position: unset;
+}
+
+.block-editor-iframe__body
+  .brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  .wp-block-woocommerce-product-button
+  > .components-disabled {
+  position: unset;
+}
+
+.block-editor-iframe__body
+  .brandy-site-product-template
+  .brandy-jewelry-dark-product-template__thumbnail-group
+  .wp-block-woocommerce-product-button
+  .add_to_cart_button {
+  font-size: 0;
+  width: 44px;
+  height: 44px;
+}
+
+/** ====== Product template end ====== */
+
+.brandy-product-image-gallery {
+  --brandy-product-image-gallery--slide-image-height: 650px;
+}
+
+.brandy-product-image-gallery .woocommerce-product-gallery__image img {
+  aspect-ratio: 3/4;
+}
+
+.wc-block-components-product-price del {
+  margin-right: 3px;
+}
+
+/** Single featured product */
+@media screen and (max-width: 1000px) {
+  .brandy-single-featured-product .wp-block-post-excerpt__excerpt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
+
+/** Override theme variables */
+body {
+  --theme-tooltip-background-color: #ffffff;
+  --theme-tooltip-color: #122940;
+  --theme-highlight-section-brightness: 60%;
+
+  --brandy-card-shadow: 0 0 #e9e9e9, 0 0 #e9e9e9, 0 1px 3px #e9e9e942;
+  --brandy-card-shadow-hover: 0 0 #fff, 0 0 #fff, 0 7px 25px #ffffff1f;
+
+  --brandy-live-result-suggestion-item-background-hover: var(
+    --wp--preset--color--brandy-theme-background
+  );
+  --brandy-live-result-suggestion-item-border-hover: #ffffff;
+  --brandy-live-result-suggestion-item-shadow-hover: 0 0 #ffff, 0 0 #ffff,
+    0 5px 15px rgba(255, 255, 255, 0.07);
+  --brandy-live-result-suggestion-item-color: #272829;
+  --brandy-live-result-suggestion-item-color-hover: #ffffff;
+
+  --woocommerce-quantity-input-background-color: var(
+    --input-background-color-normal
+  );
+  --woocommerce-quantity-input-border-width: 1px;
+  --woocommerce-quantity-input-border-color: #5a6d80;
+  --woocommerce-quantity-input-color-normal: #d6e0e9;
+  --woocommerce-quantity-input-color-hover: #d6e0e9;
+  --woocommerce-quantity-input-button-color-normal: #5a6d80;
+  --woocommerce-quantity-input-button-color-hover: #d6e0e9;
+
+  --cart-remove-icon-color: rgb(90 109 128/1);
+  --brandy-wishlist-shortcode-loading-bg: rgba(242, 242, 243, 0.1);
+
+  --swiper-navigation-display: none;
+  --swiper-scrollbar-display: block;
+  --swiper-scrollbar-bg-color: #111d27;
+  --swiper-scrollbar-drag-bg-color: #5a6d80;
+  --swiper-scrollbar-size: 5px;
+  --swiper-scrollbar-margin-top: var(--wp--preset--spacing--40);
+}

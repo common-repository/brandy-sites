@@ -1,0 +1,173 @@
+/** Product template */
+
+.brandy-site-product-template .brandy-halloween-product-thumbnail-group {
+  position: relative;
+  overflow: hidden;
+}
+
+.brandy-site-product-template
+  .brandy-halloween-product-thumbnail-group
+  [data-block-name="woocommerce/product-button"],
+.brandy-site-product-template
+  .brandy-halloween-product-thumbnail-group
+  [data-type="woocommerce/product-button"] {
+  position: absolute;
+  width: calc(100% - 30px);
+  left: 15px;
+  bottom: 15px;
+  z-index: 2;
+}
+
+.brandy-site-product-template
+  .brandy-halloween-product-thumbnail-group
+  [data-block-name="woocommerce/product-button"] {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.brandy-site-product-template
+  .brandy-halloween-product-thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  a {
+  display: block;
+  position: relative;
+}
+.brandy-site-product-template
+  .brandy-halloween-product-thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  a::before {
+  content: "";
+  position: absolute;
+  background: #0e1326;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+}
+
+.brandy-site-product-template
+  .brandy-halloween-product-thumbnail-group
+  .brandy-halloween-product-extra-actions {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 2;
+}
+
+.brandy-site-product-template
+  .brandy-halloween-product-thumbnail-group
+  .brandy-halloween-product-extra-actions:not(.block-editor-block-list__block) {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.brandy-site-product-template
+  .brandy-halloween-product-thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img,
+.brandy-site-product-template
+  .brandy-halloween-product-thumbnail-group
+  [data-block-name="woocommerce/product-button"],
+.brandy-site-product-template
+  .brandy-halloween-product-thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  a::before,
+.brandy-site-product-template
+  .brandy-halloween-product-thumbnail-group
+  .brandy-halloween-product-extra-actions {
+  transition: all ease-in-out 0.6s;
+}
+
+.brandy-site-product-template
+  > .product:hover
+  .brandy-halloween-product-thumbnail-group
+  [data-block-name="woocommerce/product-button"] {
+  visibility: visible;
+  opacity: 1;
+}
+.brandy-site-product-template
+  > .product:hover
+  .brandy-halloween-product-thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img {
+  scale: 1.1;
+}
+.brandy-site-product-template
+  > .product:hover
+  .brandy-halloween-product-thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  a::before {
+  visibility: visible;
+  opacity: 0.5;
+}
+
+.brandy-site-product-template
+  > .product:hover
+  .brandy-halloween-product-thumbnail-group
+  .brandy-halloween-product-extra-actions {
+  opacity: 1;
+  visibility: visible;
+}
+
+/** Editor */
+.brandy-product-collection-slider.block-editor-block-list__block
+  .wc-block-product-categories-list {
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.brandy-product-collection-slider.block-editor-block-list__block
+  .brandy-site-product-template
+  > * {
+  max-width: 400px;
+}
+
+/** Override theme variables */
+body {
+  --swiper-navigation-display: none;
+  --swiper-scrollbar-display: block;
+  --swiper-scrollbar-bg-color: #e0e3ec0d;
+  --swiper-scrollbar-drag-bg-color: #a8aeae;
+  --swiper-scrollbar-size: 5px;
+  --swiper-scrollbar-margin-top: var(--wp--preset--spacing--40);
+
+  --wc-sale-badge-font-weight: 500;
+  --wc-sale-badge-distance: 15px;
+
+  --brandy-post-img-aspect-ratio: 3/4;
+
+  --theme-tooltip-background-color: #ffffff;
+  --theme-tooltip-color: #122940;
+  --theme-highlight-section-brightness: 60%;
+
+  --brandy-card-shadow: 0 0 #e9e9e9, 0 0 #e9e9e9, 0 1px 3px #e9e9e942;
+  --brandy-card-shadow-hover: 0 0 #fff, 0 0 #fff, 0 7px 25px #ffffff1f;
+
+  --brandy-live-result-suggestion-item-background-hover: var(
+    --wp--preset--color--brandy-theme-background
+  );
+  --brandy-live-result-suggestion-item-border-hover: #ffffff;
+  --brandy-live-result-suggestion-item-shadow-hover: 0 0 #ffff, 0 0 #ffff,
+    0 5px 15px rgba(255, 255, 255, 0.07);
+  --brandy-live-result-suggestion-item-color: #272829;
+  --brandy-live-result-suggestion-item-color-hover: #ffffff;
+
+  --woocommerce-quantity-input-background-color: var(
+    --input-background-color-normal
+  );
+  --woocommerce-quantity-input-border-width: 1px;
+  --woocommerce-quantity-input-border-color: #5a6d80;
+  --woocommerce-quantity-input-color-normal: #d6e0e9;
+  --woocommerce-quantity-input-color-hover: #d6e0e9;
+  --woocommerce-quantity-input-button-color-normal: #5a6d80;
+  --woocommerce-quantity-input-button-color-hover: #d6e0e9;
+
+  --cart-remove-icon-color: rgb(90 109 128/1);
+  --brandy-wishlist-shortcode-loading-bg: rgba(242, 242, 243, 0.1);
+
+  --brandy-icon-global-stroke-width: 1.5px;
+}
